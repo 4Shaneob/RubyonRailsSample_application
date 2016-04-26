@@ -39,7 +39,7 @@
   # watch(%r{^app/controllers/(.*)\.rb$}) { |m| "test/functional/#{m[1]}_test.rb" }
   # watch(%r{^app/helpers/(.*)\.rb$})     { |m| "test/helpers/#{m[1]}_test.rb" }
   # watch(%r{^app/models/(.*)\.rb$})      { |m| "test/unit/#{m[1]}_test.rb" }
-end
+#end
 # Defines the matching rules for Guard.
 guard :minitest, spring: true, all_on_start: false do
   watch(%r{^test/(.*)/?(.*)_test\.rb$})
