@@ -2,4 +2,4 @@ $ git status
 $ git add -A
 $ git commit -m "comment description"
 $ git push -u origin static-pages #to static pages branch
-$ git push #to main branch
+$ git push
