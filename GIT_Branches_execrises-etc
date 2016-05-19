@@ -1,0 +1,17 @@
+
+From this point until the end of the tutorial, I recommend solving the exercises on a separate topic branch:
+
+$ git checkout static-pages
+$ git checkout -b static-pages-exercises
+This practice will prevent conflicts with the main tutorial.
+
+Once you’re satisfied with your solutions, you can push up the exercises branch to a remote repository (if you’ve set one up):
+
+<solve first exercise>
+$ git commit -am "Eliminate repetition (solves exercise 3.1)"
+<solve second exercise>
+$ git add -A
+$ git commit -m "Add a Contact page (solves exercise 3.2)"
+$ git push -u origin static-pages-exercises
+$ git checkout master
+(As preparation for future development, the last step here checks out the master branch, but we don’t merge in the changes in order to avoid conflicts with the rest of the tutorial.) In future chapters, the branches and commit messages will differ, of course, but the basic idea is the same.
