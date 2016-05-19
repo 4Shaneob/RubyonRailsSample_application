@@ -1,12 +1,9 @@
 class UsersController < ApplicationController
   
-<<<<<<< HEAD
-=======
   def show
     @user = User.find(params[:id])
   end
   
->>>>>>> 906be1ebcca377aecd420775431d51308e91c704
   def new
         @user = User.new
   end
